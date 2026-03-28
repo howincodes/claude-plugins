@@ -1,16 +1,26 @@
 {
   "name": "howincodes",
   "description": "Claude Code plugins by Howin Codes",
+  "owner": {
+    "name": "Howin Codes",
+    "email": "hello@howin.dev"
+  },
   "plugins": [
     {
       "name": "clawlens",
-      "description": "AI usage analytics and team management for Claude Code teams",
+      "description": "AI usage analytics and team management for Claude Code teams. Track prompts, credits, tool usage, and enforce rate limits with a three-tier deployment model.",
       "version": "0.2.0",
+      "author": {
+        "name": "Howin Codes"
+      },
       "source": {
-        "source": "github",
-        "repo": "howincodes/clawlens",
+        "source": "git-subdir",
+        "url": "howincodes/clawlens",
         "path": "packages/plugin"
-      }
+      },
+      "category": "monitoring",
+      "keywords": ["analytics", "monitoring", "team-management", "usage-tracking"],
+      "homepage": "https://github.com/howincodes/clawlens"
     }
   ]
 }
