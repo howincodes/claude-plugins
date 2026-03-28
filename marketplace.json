@@ -1,0 +1,16 @@
+{
+  "name": "howincodes",
+  "description": "Claude Code plugins by Howin Codes",
+  "plugins": [
+    {
+      "name": "clawlens",
+      "description": "AI usage analytics and team management for Claude Code teams",
+      "version": "0.2.0",
+      "source": {
+        "source": "github",
+        "repo": "howincodes/clawlens",
+        "path": "packages/plugin"
+      }
+    }
+  ]
+}
